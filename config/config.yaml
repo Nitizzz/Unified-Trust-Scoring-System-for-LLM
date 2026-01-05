@@ -1,0 +1,14 @@
+training:
+  batch_size: 16
+  learning_rate: 0.001
+  epochs: 10
+  seed: 42
+
+weights:
+  w1: 0.4
+  w2: 0.4
+  w3: 0.2
+
+model:
+  cnn_filters: 32
+  mlp_hidden: 64

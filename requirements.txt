@@ -1,0 +1,10 @@
+torch
+torchvision
+torchaudio
+pandas
+openpyxl
+scikit-learn
+pyarrow
+pyyaml
+scipy
+numpy
