@@ -11,6 +11,7 @@ This system processes a dataset of (question, code, summary) triplets, generates
 - `model.py`: Defines the `HybridTrustModel` (CNN + MLP).
 - `train.py`: Training loop and evaluation metrics.
 - `config/config.yaml`: Hyperparameters and trust score weights.
+- `ARCHITECTURE.md`: Detailed visual charts for the model and pipeline.
 
 ## Setup
 1. Install dependencies:

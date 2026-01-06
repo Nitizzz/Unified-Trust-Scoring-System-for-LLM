@@ -19,5 +19,8 @@ results.txt
 .DS_Store
 Thumbs.db
 
+# Documentation
+draft.pdf
+
 # Notebooks
 .ipynb_checkpoints/
