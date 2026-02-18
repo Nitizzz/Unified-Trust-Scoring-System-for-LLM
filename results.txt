@@ -1,0 +1,6 @@
+Code Hallucination: P=0.700, R=0.700, F1=0.700
+Code Confusion Matrix:
+[[17  3]
+ [ 3  7]]
+Summary Hallucination: P=1.000, R=1.000, F1=1.000
+Trust Score Correlation: 0.735
