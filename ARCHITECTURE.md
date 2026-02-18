@@ -10,16 +10,19 @@ The pipeline handles everything from data ingestion to the final trust score cal
 ```mermaid
 graph LR
     subgraph "Data Layer"
-    A[Raw Dataset (.xlsx)] --> B[Data Loader]
+    A["Raw Dataset (.xlsx)"] --> B[Data Loader]
     B --> C{Synthetic Mutation?}
     C -->|Yes| D[Code/Summary Mutators]
     C -->|No| E[Clean Samples]
     end
 
     subgraph "Feature Engineering"
-    D & E --> F[AST Entity Extraction]
-    D & E --> G[Tokenization]
-    D & E --> H[Dry-run Execution]
+    D --> F[AST Entity Extraction]
+    E --> F
+    D --> G[Tokenization]
+    E --> G
+    D --> H[Dry-run Execution]
+    E --> H
     end
 
     subgraph "Model Processing"
